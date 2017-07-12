@@ -1,0 +1,33 @@
+#progressBar {
+  position: relative;
+  width: 500px;
+  height: 30px;
+  background-color: #ddd;
+}
+#bar1status {
+  position: absolute;
+  width: 26%;
+  height: 100%;
+  background-color: #25F;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}
+#bar2status {
+  position: absolute;
+  width: 39%;
+  height: 100%;
+  background-color: #25F;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}
+#bar3status {
+  position: absolute;
+  width: 38%;
+  height: 100%;
+  background-color: #25F;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}

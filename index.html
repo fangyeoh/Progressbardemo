@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Vanilla JS Progress Bar</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <h1>Progress Bar Demo</h1>
+
+<div id="progressBar">
+  <div id="bar1status">26%</div>
+  <input type="hidden" id="bar1" value="26">
+</div>
+<br>
+<div id="progressBar">
+  <div id="bar2status">39%</div>
+  <input type="hidden" id="bar2" value="39">
+</div>
+<br>
+<div id="progressBar">
+  <div id="bar3status">38%</div>
+  <input type="hidden" id="bar3" value="38">
+</div>
+<br>
+<br>
+<table>
+<tr><td>
+ <select id="select1">
+  <option value="bar1">#progress1</option>
+  <option value="bar2">#progress2</option>
+  <option value="bar3">#progress3</option>
+</select> 
+</td>
+<td><input type=button value='7' onClick="move2(this.value);"></td>
+<td><input type=button value='13' onClick="move2(this.value);"></td>
+<td><input type=button value='-17' onClick="move2(this.value);"></td>
+<td><input type=button value='-39' onClick="move2(this.value);"></td>
+</table>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
