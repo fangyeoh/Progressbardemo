@@ -1,50 +1,32 @@
 <!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Vanilla JS Progress Bar</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
+<html>
+    <head>   
+        <title>Progress Bar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h3>Progress Bar</h3>
 
-  
-</head>
+        <div id="content">
+        </div>
+        <br>
+		<table>
+		<tr>
+		<td>
+        <div id="sel">
+        </div>
+		</td>
+		<td>
+		<div id="but">
+        </div>
+		</td>
+		</tr>
+		</table>
+		<input type="hidden" id="limit">
+        <script src="js/index.js" type="text/javascript"></script>
+       
+    </body>
 
-<body>
-  <h1>Progress Bar Demo</h1>
-
-<div id="progressBar">
-  <div id="bar1status">26%</div>
-  <input type="hidden" id="bar1" value="26">
-</div>
-<br>
-<div id="progressBar">
-  <div id="bar2status">39%</div>
-  <input type="hidden" id="bar2" value="39">
-</div>
-<br>
-<div id="progressBar">
-  <div id="bar3status">38%</div>
-  <input type="hidden" id="bar3" value="38">
-</div>
-<br>
-<br>
-<table>
-<tr><td>
- <select id="select1">
-  <option value="bar1">#progress1</option>
-  <option value="bar2">#progress2</option>
-  <option value="bar3">#progress3</option>
-</select> 
-</td>
-<td><input type=button value='7' onClick="move2(this.value);"></td>
-<td><input type=button value='13' onClick="move2(this.value);"></td>
-<td><input type=button value='-17' onClick="move2(this.value);"></td>
-<td><input type=button value='-39' onClick="move2(this.value);"></td>
-</table>
-  
-    <script src="js/index.js"></script>
-
-</body>
 </html>
